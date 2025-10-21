@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1106px;
+    margin: auto;
+    padding: 25px 0;
+    border-bottom: #bebfc2 1px solid;
+
+    a{
+        color: #4B5563;
+        
+    }
+
+    p{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+
+
+    .botao-cabecalho{
+        padding: 18px;
+        border-radius: 15px;
+        color: rgb(255, 255, 255);
+        background-color:#21C05C;
+        border: 1px solid
+        
+    }
+}
+
+.menu{
+    display: flex;
+    gap: 50px;
+   
+}
+
+.meio{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 80px;
+
+    h1{
+        color:#1F2937;
+
+    }
+}
+
+.reciclagem{
+    display: flex;
+    justify-content: right;
+    
+}
+
+.botao-meio{
+    padding: 100px ;
+    width: 30px;
+    display: flex;
+
+}
+
+
