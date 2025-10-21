@@ -1,70 +1,144 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
-.cabecalho{
+header {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    border-bottom: solid 1px #B4AEAE;
+    height: 60px;
     max-width: 1106px;
-    margin: auto;
-    padding: 25px 0;
-    border-bottom: #bebfc2 1px solid;
+    margin: 30px auto;
+    padding: 31px 39px 50px 31px;
+    align-items: center;
 
-    a{
-        color: #4B5563;
-        
-    }
 
-    p{
+    .div-navbar {
         display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-
+        align-items: center;
+        justify-content: space-between;
+        gap: 33px;
     }
 
+    .navbar-links {
+        display: flex;
+        justify-content: space-between;
+        gap: 33px;
+        list-style: none;
+    }
 
-    .botao-cabecalho{
-        padding: 18px;
-        border-radius: 15px;
-        color: rgb(255, 255, 255);
-        background-color:#21C05C;
-        border: 1px solid
-        
+    .navbar-text {
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        color: #4B5563;
+    }
+
+    .button-navbar {
+        width: 189px;
+        height: 60px;
+        border-radius: 6px;
+        border: 1px solid;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        background-color: #16A34A;
+        color: #FFFFFF;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #21C05C;
+        }
+    }
+
+}
+
+main{
+    .garra_content{
+        display: flex;
+
+        .garra_text{
+            display: flex;
+            flex-direction: column;
+            h1{
+                font-family: 'Poppins', sans-serif;
+                font-size: 60px;
+                font-weight: bold;
+                color: #1F2937;
+                line-height: 130%;
+                letter-spacing: 0%;
+                max-width: 678px;
+            }
+
+            h4{
+                font-family: 'inter', sans-serif;
+                font-weight: 400;
+                font-size: 20px;
+                color: #4B5563;
+                line-height: 100%;
+                max-width: 678px;
+            }
+
+            .text_btn_content{
+                display: flex;
+                
+            }
+
+            button{
+                display: flex;
+                width: 189.81px;
+                height: 62px;
+                border-radius: 6px;
+                font-family: 'Poppins', sans-serif;
+                border: 1px solid;
+                font-size: 16px;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+            }
+            .btn_garra_green{
+                background-color: #16A34A;
+                color: #FFFFFF;
+            }
+
+            .btn_garra_blue{
+                background-color: #FFFFFF;
+                color: #2563EB;
+            }
+
+        }
     }
 }
 
-.menu{
-    display: flex;
-    gap: 50px;
-   
-}
+@media (max-width: 700px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        padding: 31px 0px 100px 31px;
+        gap: 10px;
 
-.meio{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding: 80px;
 
-    h1{
-        color:#1F2937;
+        .navbar-img {
+            justify-self: left;
+            align-self: flex-start;
+        }
+
+        .navbar-links {
+            gap: 8px;
+        }
+
+        .navbar-text {
+            font-size: 10px;
+        }
+
+        .button-navbar {
+            width: 130px;
+            height: 40px;
+            font-size: 10px;
+        }
 
     }
 }
-
-.reciclagem{
-    display: flex;
-    justify-content: right;
-    
-}
-
-.botao-meio{
-    padding: 100px ;
-    width: 30px;
-    display: flex;
-
-}
-
-
