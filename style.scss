@@ -58,10 +58,13 @@ header {
 main{
     .garra_content{
         display: flex;
+        justify-content: center;
 
         .garra_text{
             display: flex;
             flex-direction: column;
+            padding: 55px 20px 43px 54px;
+            
             h1{
                 font-family: 'Poppins', sans-serif;
                 font-size: 60px;
@@ -70,6 +73,7 @@ main{
                 line-height: 130%;
                 letter-spacing: 0%;
                 max-width: 678px;
+                margin-bottom: 25px;
             }
 
             h4{
@@ -79,10 +83,12 @@ main{
                 color: #4B5563;
                 line-height: 100%;
                 max-width: 678px;
+                margin-bottom: 40px;
             }
 
             .text_btn_content{
                 display: flex;
+                gap: 43px;
                 
             }
 

@@ -50,10 +50,12 @@ header .button-navbar:hover {
 
 main .garra_content {
   display: flex;
+  justify-content: center;
 }
 main .garra_content .garra_text {
   display: flex;
   flex-direction: column;
+  padding: 55px 20px 43px 54px;
 }
 main .garra_content .garra_text h1 {
   font-family: "Poppins", sans-serif;
@@ -63,6 +65,7 @@ main .garra_content .garra_text h1 {
   line-height: 130%;
   letter-spacing: 0%;
   max-width: 678px;
+  margin-bottom: 25px;
 }
 main .garra_content .garra_text h4 {
   font-family: "inter", sans-serif;
@@ -71,9 +74,11 @@ main .garra_content .garra_text h4 {
   color: #4B5563;
   line-height: 100%;
   max-width: 678px;
+  margin-bottom: 40px;
 }
 main .garra_content .garra_text .text_btn_content {
   display: flex;
+  gap: 43px;
 }
 main .garra_content .garra_text button {
   display: flex;
