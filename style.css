@@ -51,6 +51,7 @@ header .button-navbar:hover {
 main .garra_content {
   display: flex;
   justify-content: center;
+  margin-bottom: 40px;
 }
 main .garra_content .garra_text {
   display: flex;
@@ -99,6 +100,79 @@ main .garra_content .garra_text .btn_garra_green {
 main .garra_content .garra_text .btn_garra_blue {
   background-color: #FFFFFF;
   color: #2563EB;
+}
+main .bixo_content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 215px;
+  margin-bottom: 101;
+}
+main .bixo_content .bixo_text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+main .bixo_content .bixo_text h2 {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  max-width: 700;
+  font-size: 40px;
+  line-height: 100%;
+  color: #16A34A;
+  font-style: bold;
+}
+main .bixo_content .bixo_text p {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  max-width: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: #4B5563;
+}
+main .bixo_content .bixo_text2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+main .bixo_content .bixo_text2 h2 {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  max-width: 700;
+  font-size: 40px;
+  line-height: 100%;
+  color: #16A34A;
+  font-style: bold;
+}
+main .bixo_content .bixo_text2 p {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  max-width: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: #4B5563;
+}
+main .bixo_content .bixo_text3 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+main .bixo_content .bixo_text3 h2 {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  max-width: 700;
+  font-size: 40px;
+  line-height: 100%;
+  color: #16A34A;
+  font-style: bold;
+}
+main .bixo_content .bixo_text3 p {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  max-width: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: #4B5563;
 }
 
 @media (max-width: 700px) {

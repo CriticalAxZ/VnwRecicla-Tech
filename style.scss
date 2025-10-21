@@ -59,6 +59,7 @@ main{
     .garra_content{
         display: flex;
         justify-content: center;
+        margin-bottom: 40px;
 
         .garra_text{
             display: flex;
@@ -116,6 +117,94 @@ main{
 
         }
     }
+
+    .bixo_content{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 215px;
+        margin-bottom: 101;
+
+        .bixo_text{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+             
+            h2{
+                display: flex;
+                font-family: 'Poppins', sans-serif;
+                max-width: 700;
+                font-size: 40px;
+                line-height: 100%;
+                color: #16A34A;
+                font-style: bold;
+            }
+
+            p{
+                display: flex;
+                font-family: 'Poppins', sans-serif;
+                max-width: 400;
+                font-size: 16px;
+                line-height: 100%;
+                color: #4B5563;
+            }
+
+        }
+
+
+        .bixo_text2{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            h2{
+                display: flex;
+                font-family: 'Poppins', sans-serif;
+                max-width: 700;
+                font-size: 40px;
+                line-height: 100%;
+                color: #16A34A;
+                font-style: bold;
+            }
+
+            p{
+                display: flex;
+                font-family: 'Poppins', sans-serif;
+                max-width: 400;
+                font-size: 16px;
+                line-height: 100%;
+                color: #4B5563;
+            }
+         }
+
+         .bixo_text3{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            h2{
+                display: flex;
+                font-family: 'Poppins', sans-serif;
+                max-width: 700;
+                font-size: 40px;
+                line-height: 100%;
+                color: #16A34A;
+                font-style: bold;
+            }
+
+            p{
+                display: flex;
+                font-family: 'Poppins', sans-serif;
+                max-width: 400;
+                font-size: 16px;
+                line-height: 100%;
+                color: #4B5563;
+            }
+
+         }
+ }
+
+
 }
 
 @media (max-width: 700px) {
